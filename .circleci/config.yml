@@ -7,7 +7,7 @@ jobs:
       - checkout
       - run:
           name: compile
-          command: gcc hello.c
+          command: cc hello.c
       - run:
           name: execute
           command: ./a.out
